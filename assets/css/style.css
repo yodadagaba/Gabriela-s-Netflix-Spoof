@@ -220,7 +220,8 @@ button{
     box-sizing: border-box;
     /* width: 95%;
     margin: 0 auto; */
-    padding-block: 20px;
+    padding-top: 45px;
+    padding-bottom: 20px;
 }
 .content-listing .content-listing-row:not(:last-child){
     margin-bottom: 40px;
@@ -267,7 +268,7 @@ button{
     transform: translate(0, -80px)scale(1.4);
 }
 .content-listing .content-listing-row:first-child  .swiper-slide.poster-card:hover{
-    transform: translate(0, -30px)scale(1.4);
+    transform: translate(0, -58px)scale(1.4);
 }
 .content-listing .content-listing-row:last-child  .swiper-slide.poster-card:hover{
     transform: translate(0, -120px)scale(1.4);
