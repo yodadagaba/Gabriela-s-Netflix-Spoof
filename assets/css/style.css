@@ -48,7 +48,11 @@ button{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
-  
+  .profile-setting{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
   .dropdown-content a {
     float: none;
     color: black;
@@ -377,7 +381,9 @@ button{
     max-width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
-    padding:40px 60px;
+    padding:40px 4%;
+    margin: 0 auto;
+    max-width: 960px;
 }
 .footer-wrap .footer-widgets{
     margin-block: 20px;
@@ -387,11 +393,12 @@ button{
     flex-grow: 1;
 }
 .footer-wrap .footer-widgets .widget li:not(:last-child){
-    margin-bottom: 15px
+    margin-bottom: 16px;
+    padding-right: 22px;
 }
 .footer-wrap .footer-widgets .widget li a{
-    color: rgba(255,255,255,0.7);
-    font-size: 14px;
+    color: grey;
+    font-size: 13px;
     line-height: 20px;
 }
 .footer-wrap .social-links{
@@ -399,15 +406,15 @@ button{
     gap: 20px;
 }
 .service-code a{
-    color: rgba(255,255,255,0.7);
-    font-size: 14px;
+    color: grey;
+    font-size: 13px;
     line-height: 20px;
-    border: 1px solid rgba(255,255,255,0.7);
+    border: 1px solid grey;
     padding: 8px;
 }
 .copy-right p{
-    color: rgba(255,255,255,0.7);
-    font-size: 14px;
+    color: grey;
+    font-size: 13px;
     line-height: 20px;
     margin-top: 20px;
 }
