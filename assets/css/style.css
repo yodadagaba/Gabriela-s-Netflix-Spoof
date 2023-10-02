@@ -419,3 +419,7 @@ button{
     line-height: 20px;
     margin-top: 20px;
 }
+.first-heading {
+    z-index: 1;
+    position: relative;
+}
