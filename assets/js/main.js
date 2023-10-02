@@ -28,3 +28,30 @@ window.addEventListener('scroll', () => {
       }
     }
   }
+
+//Audio Play
+const playButton = document.getElementById('playButton');
+const playImage = playButton.querySelector('img');
+const playText = document.getElementById('playText');
+const audioElement = document.getElementById('audioElement');
+
+playButton.addEventListener('click', toggleAudio);
+
+
+audioElement.addEventListener('ended', function() {
+    playImage.src = 'assets/images/play.svg';
+    playText.textContent = 'Play';
+});
+
+
+function toggleAudio() {
+    if (audioElement.paused || audioElement.ended) {
+        audioElement.play();
+        playImage.src = 'assets/images/pause.svg';
+        playText.textContent = 'Pause';
+    } else {
+        audioElement.pause();
+        playImage.src = 'assets/images/play.svg';
+        playText.textContent = 'Play';
+    }
+}
